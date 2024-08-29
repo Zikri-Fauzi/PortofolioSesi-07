@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #judul{
+            background-color: antiquewhite;
+            padding: 15px;
+            margin: 25px;
+            border-radius: 10px;
+
+        }
+
+        input{
+            display: block;
+            width: 350px;
+            box-shadow: 3px 3px 5px grey;
+            padding: 5px;
+            font-size: 14px;
+            border: 1px;
+        }
+        .form-group{
+            margin-block: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3 id="judul">Belajar Website</h3>
+    <hr>
+
+    <form action="">
+        <div class="form-group">
+            <label class="label-group">
+                <input type="text" class="input">
+                    <group>
+
+                    </group>
+                </input>
+            </label>
+        </div>
+    </form>
+
+    <script>
+        let judul = document.getElementById("judul");
+
+        judul.innerHTML= costomJudul("Belajar membuat website dengan hacktiv8")
+        function customJudul(params) {
+            return params;
+        }
+    </script>
+</body>
+</html>
